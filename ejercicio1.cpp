@@ -1,6 +1,12 @@
 #include <iostream> 
 using namespace std;
 int main(){
-    cout << "Hello world\n";
+    int i;
+    i=0;
+    while(i<6){
+         cout << "Buenos días estrellitas\n";
+         i=i+1;
+    }
+   
 
 }
