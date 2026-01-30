@@ -11,7 +11,7 @@ int main(){
     int v;
     v=0;
     while(v<1299){
-         cout << "Eres super guapo, inteligente y buena persona, Javier\n";
+         cout << "Eres super guapo, inteligente y buena persona, Raúl\n";
          v=v+1;
     }
     int a;
