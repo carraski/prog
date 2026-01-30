@@ -7,7 +7,8 @@ int main(){
          cout << "Buenos días estrellitas\n";
          i=i+1;
     }
-   
+   std::cout << "¿que quieres que te diga? ¿1, 2 o 3?"
+   std::cin >> 1, 2 o 3;
     int v;
     v=0;
     while(v<1299){
