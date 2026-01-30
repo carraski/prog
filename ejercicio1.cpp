@@ -8,5 +8,22 @@ int main(){
          i=i+1;
     }
    
-
+    int v;
+    v=0;
+    while(v<1299){
+         cout << "Eres super guapo, inteligente y buena persona, Javier\n";
+         v=v+1;
+    }
+    int a;
+    a=0;
+    while(a<728){
+         cout << "solicito tu ayuda\n";
+         a=a+1;
+    }
+    int z;
+    z=0;
+    while(z<15000){
+         cout << "informatica se me da muy bien\n";
+         z=z+1;
+    }
 }
