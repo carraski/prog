@@ -1,21 +1,20 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main() {
     int num;
-    cout << "Dime cuantos números quieres sumar\n";
+    cout << "Dime cuantos números quieres guardar\n";
     cin >> num;
-    cout << "He entendido que quieres sumar " << num << " números\n";
-    int i;
-    i=0;
-    while (i<num){
-        cout << "Dame el número " << i <<"\n";
-        cin >> valores[i];
-        i=i+1;
+    int valores[num];
+    int x = 0;
+    while (x < num) {
+        cout << "Dame el número " << x << "\n";
+        cin >> valores[x];
+        x++;
     }
-    int j=0;
-    while (j<num){
-        cout << "valor "<< j <<" es "<< valores[j]<<"\n";
-        j=j+1;
+    int j = 0;
+    while (j < num) {
+        cout << "valor " << j << " es " << valores[j] << "\n";
+        j++;
     }
-    
+    return 0;
 }
