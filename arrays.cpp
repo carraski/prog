@@ -5,11 +5,11 @@ int main() {
     cout << "Dime cuantos números quieres guardar\n";
     cin >> num;
     int valores[num];
-    int x = 0;
-    while (x < num) {
-        cout << "Dame el número " << x << "\n";
-        cin >> valores[x];
-        x++;
+    int i = 0;
+    while (i < num) {
+        cout << "Dame el número " << i << "\n";
+        cin >> valores[i];
+        i++;
     }
     int j = 0;
     while (j < num) {

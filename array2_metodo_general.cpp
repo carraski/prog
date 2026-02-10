@@ -15,6 +15,6 @@ int main() {
     minimo = num[i];
     }    
     }
-        cout << "el valor mínimo es:" << minimo;
+        cout << ", el valor mínimo es:" << minimo;
     return 0;
 }
